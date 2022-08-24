@@ -17,7 +17,6 @@ const currentTime = localStorage.getItem('videoplayer-current-time');
 function onAdjastTime(currentTime) {
     if (currentTime) { pastTime = JSON.parse(currentTime); }
     else { pastTime = 0; }
-
 }
 
 onAdjastTime(currentTime);
